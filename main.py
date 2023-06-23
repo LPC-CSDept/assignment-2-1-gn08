@@ -9,8 +9,8 @@ def main():
     """
 
     total = int(num_males + num_females)
-    m_perc = (num_males / total) * 100
-    f_perc = (num_females / total) * 100
+    m_perc = float(num_males / total) * 100
+    f_perc = float(num_females / total) * 100
     print(f'Tne total number of students:', total)
     print(f'The total number of males and females: ', num_males, num_females)
     print(f'The percentage of males and females:', (format(num_males, ".2f")) + "%", (format(num_females, ".2f")) + "%")
